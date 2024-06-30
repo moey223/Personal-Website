@@ -1,0 +1,74 @@
+body{
+    background-color:#ffffff;
+}
+h1{
+    font-family: "Patrick Hand", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size:40pt;
+}
+#dodo{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+.pics{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:100px;
+}
+#gear{
+    mix-blend-mode:multiply;
+    display:inline;
+    width:600px;
+}
+h1{
+    display:inline;
+}
+h2{
+    font-size:30pt;
+    color:purple;
+}
+p,.interests,#Navbar{
+    font-size:20pt;
+}
+#about-me{
+    text-align:center;
+}
+#welcome{
+    background-color: #d6fbfe;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:40px;
+    text-align: center;
+
+}
+.interests { 
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width:550px;
+}
+h3{
+text-align:left;
+padding-left:200px;
+float:left;
+
+}
+.Tindog{
+    width:500px;
+    display:block;
+    padding-left:100px;
+
+}
+.Painting{
+    display:block;
+    height:500px;
+    width:500px;
+    padding-left:50px;
+}
+#sigma{
+    width:200px;
+    float:left;
+}
