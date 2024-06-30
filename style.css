@@ -1,7 +1,7 @@
 body{
     background-color:#ffffff;
 }
-@media (min-width:900px){
+@media (max-width:900px){
     h1{
     font-family: "Patrick Hand", cursive;
     font-weight: 600;
