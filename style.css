@@ -1,7 +1,8 @@
 body{
     background-color:#ffffff;
 }
-h1{
+@media (min-width:900px){
+    h1{
     font-family: "Patrick Hand", cursive;
     font-weight: 600;
     font-style: normal;
@@ -70,5 +71,81 @@ float:left;
 }
 #sigma{
     width:200px;
+    float:left;
+}
+}
+
+
+
+
+h1{
+    font-family: "Patrick Hand", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size:20pt;
+}
+#dodo{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+.pics{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:50px;
+}
+#gear{
+    mix-blend-mode:multiply;
+    display:inline;
+    width:300px;
+}
+h1{
+    display:inline;
+}
+h2{
+    font-size:20pt;
+    color:purple;
+}
+p,.interests,#Navbar{
+    font-size:15pt;
+}
+#about-me{
+    text-align:center;
+}
+#welcome{
+    background-color: #d6fbfe;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:30px;
+    text-align: center;
+
+}
+.interests { 
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+}
+h3{
+text-align:left;
+padding-left:100px;
+float:left;
+
+}
+.Tindog{
+    width:400px;
+    display:block;
+    padding-left:100px;
+
+}
+.Painting{
+    display:block;
+    height:400px;
+    width:400px;
+    padding-left:50px;
+}
+#sigma{
+    width:100px;
     float:left;
 }
