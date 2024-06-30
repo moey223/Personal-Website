@@ -1,151 +1,115 @@
-body{
-    background-color:#ffffff;
+body {
+    background-color: #ffffff;
 }
-@media (min-width:900px){
-    h1{
+
+/* Default styles (for screens smaller than 900px) */
+h1 {
     font-family: "Patrick Hand", cursive;
     font-weight: 600;
     font-style: normal;
-    font-size:400pt;
+    font-size: 20pt;
+    display: inline;
 }
-#dodo{
-    width:200px;
-    height:200px;
-    border-radius:50%;
+#dodo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
-.pics{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding-top:100px;
+.pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
 }
-#gear{
-    mix-blend-mode:multiply;
-    display:inline;
-    width:600px;
+#gear {
+    mix-blend-mode: multiply;
+    display: inline;
+    width: 300px;
 }
-h1{
-    display:inline;
+h2 {
+    font-size: 20pt;
+    color: purple;
 }
-h2{
-    font-size:30pt;
-    color:purple;
+p, .interests, #Navbar {
+    font-size: 15pt;
 }
-p,.interests,#Navbar{
-    font-size:20pt;
-}
-#about-me{
-    text-align:center;
-}
-#welcome{
-    background-color: #d6fbfe;
-    padding-top:40px;
-    padding-bottom:40px;
-    padding-left:40px;
+#about-me {
     text-align: center;
-
 }
-.interests { 
-    position:relative;
+#welcome {
+    background-color: #d6fbfe;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+.interests {
+    position: relative;
     margin-left: auto;
     margin-right: auto;
-    width:550px;
+    width: 250px;
 }
-h3{
-text-align:left;
-padding-left:200px;
-float:left;
-
+h3 {
+    text-align: left;
+    padding-left: 100px;
+    float: left;
 }
-.Tindog{
-    width:500px;
-    display:block;
-    padding-left:100px;
-
+.Tindog {
+    width: 400px;
+    display: block;
+    padding-left: 100px;
 }
-.Painting{
-    display:block;
-    height:500px;
-    width:500px;
-    padding-left:50px;
+.Painting {
+    display: block;
+    height: 400px;
+    width: 400px;
+    padding-left: 50px;
 }
-#sigma{
-    width:200px;
-    float:left;
-}
+#sigma {
+    width: 100px;
+    float: left;
 }
 
-
-
-
-h1{
-    font-family: "Patrick Hand", cursive;
-    font-weight: 600;
-    font-style: normal;
-    font-size:20pt;
-}
-#dodo{
-    width:100px;
-    height:100px;
-    border-radius:50%;
-}
-.pics{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding-top:50px;
-}
-#gear{
-    mix-blend-mode:multiply;
-    display:inline;
-    width:300px;
-}
-h1{
-    display:inline;
-}
-h2{
-    font-size:20pt;
-    color:purple;
-}
-p,.interests,#Navbar{
-    font-size:15pt;
-}
-#about-me{
-    text-align:center;
-}
-#welcome{
-    background-color: #d6fbfe;
-    padding-top:30px;
-    padding-bottom:30px;
-    padding-left:30px;
-    text-align: center;
-
-}
-.interests { 
-    position:relative;
-    margin-left: auto;
-    margin-right: auto;
-    width:300px;
-}
-h3{
-text-align:left;
-padding-left:100px;
-float:left;
-
-}
-.Tindog{
-    width:400px;
-    display:block;
-    padding-left:100px;
-
-}
-.Painting{
-    display:block;
-    height:400px;
-    width:400px;
-    padding-left:50px;
-}
-#sigma{
-    width:100px;
-    float:left;
+/* Media query for screens larger than 900px */
+@media (min-width: 900px) {
+    h1 {
+        font-size: 40pt;
+    }
+    #dodo {
+        width: 200px;
+        height: 200px;
+    }
+    .pics {
+        padding-top: 100px;
+    }
+    #gear {
+        width: 600px;
+    }
+    h2 {
+        font-size: 30pt;
+    }
+    p, .interests, #Navbar {
+        font-size: 20pt;
+    }
+    #welcome {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+    }
+    .interests {
+        width: 550px;
+    }
+    h3 {
+        padding-left: 200px;
+    }
+    .Tindog {
+        width: 500px;
+    }
+    .Painting {
+        height: 500px;
+        width: 500px;
+    }
+    #sigma {
+        width: 200px;
+    }
 }
